@@ -44,4 +44,9 @@ $(document).ready(function(){
         //return result; //JavaScript object
         return JSON.stringify(result); //JSON
       }
+
+      console.log("new changes to master branch");
+      console.log("new changes to master branch");
+      
+      console.log("new changes to master branch");
 })
