@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyFlix</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-2.1.3.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="title">MyFlix</div>
+        <div class="filterBar">
+
+            <div>Year Range Between</div>
+            <div class="slider"><input type="range" id="minYearInput" class="sliders" min="1980" max="2020" step="1">
+        
+                <div class="rangeMaxOutput">2000</div><br><input type="range" id="maxYearInput" class="sliders" min="1980"
+                    max="2020" step="1">
+        
+                <div class="rangeMinOutput">2000</div>
+            </div>
+        
+            <div>
+        
+                <select class="genreSelector">
+        
+                    <option>Action</option>
+                    
+                </select>
+        
+                <div>IMDB Score</div>
+        
+                <div>4 Stars or Above</div><input type="checkbox" value="5">
+                <div>3 Stars or Above</div><input type="checkbox" value="4">
+                <div>2 Stars or Above</div><input type="checkbox" value="3">
+                
+            </div>
+        </div>
+        <div class="movies">
+            <div class="grids">
+                <div class="info">Avatar
+                </div>
+                <div class="year">2009</div><img class="gridImg"
+                    src="http://via.placeholder.com/96/f645c99919c8?text=Avatar">
+            </div>
+            <div class="grids">
+                <div class="info">Dark Knight Rises</div>
+                <div class="year">2012</div><img class="gridImg"
+                    src="http://via.placeholder.com/98/c401a15a07de?text=Dark Knight Rises">
+            </div>
+            <div class="grids">
+                <div class="info">Pirates of the Caribbean: At World's End</div>
+                <div class="year">2011</div><img class="gridImg"
+                    src="http://via.placeholder.com/98/ddff698dab62?text=Pirates of the Caribbean: At World's End">
+            </div>
+            <div class="grids">
+                <div class="info">Spectre
+                </div>
+                <div class="year">2015</div><img class="gridImg"
+                    src="http://via.placeholder.com/98/0f70cbf076e0?text=Spectre
+                    ">
+            </div>
+        </div>
+        <div></div>
+        <div class="myList">My List:</div>           
+    </div>
+
+
+
+
+</body>
+
+</html>
